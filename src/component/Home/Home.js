@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="container mt-5 gr">
 
-            <h1 className="text-primary">WELCOME TO JESMIN's PORTFOLIO</h1>
+            <h1 className="text-dark mb-3">WELCOME TO JESMIN's PORTFOLIO</h1>
 
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 
@@ -32,16 +32,18 @@ const Home = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-center align-items-center bg-dark mt-3">
                 <div className="me-5 pe-5">
-                    <h1 className='text-danger'>I am Jesmin Ara</h1>
-                    <h3 className='text-success'>Web Developer</h3>
-                    <h5>ADDRESS:</h5>
-                    <p>Location: Dhaka-Bangladesh.</p>
-                    <p>Permanent Address:Rajshahi-Bangladesh</p>
-                    <p>Phone: +8801788118653</p> 
-                    <p>Email: jesminara8653@gmail.com</p>
-                    
+                    <h1 className='text-white'>I am Jesmin Ara</h1>
+                    <h3 className='text-info'>Web Developer</h3>
+                    <div className='text-info'>
+                        <h5>ADDRESS:</h5>
+                        <h5>Location: Dhaka-Bangladesh.</h5>
+                        <h6>Permanent Address:Rajshahi-Bangladesh</h6>
+                        <p>Phone: +8801788118653</p>
+                        <p>Email: jesminara8653@gmail.com</p>
+
+                    </div>
                 </div>
                 <div className="ms-5 pt-5 ps-5">
                     <img src={img} alt="" />
