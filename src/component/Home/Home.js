@@ -26,7 +26,7 @@ const Home = () => {
                         <Nav>
                             <Nav.Link href="/about">About</Nav.Link>
                             <Nav.Link eventKey={2} href="/contruct">
-                                Contruct Me
+                                Contuct Me
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
