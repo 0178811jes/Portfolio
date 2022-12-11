@@ -1,10 +1,12 @@
 import React from 'react';
+import { HiArrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
         <div>
-            <h1 className="m-5 pe-5">About Me</h1>
+            <h1 className=" text-dark m-5 pe-5">About Me</h1>
+            <hr />
             <div className="d-flex justify-content-center align-items-center">
                 <div className="me-5 pe-5">
                     <h1 className='text-danger'>I am Jesmin Ara</h1>
@@ -17,9 +19,19 @@ const About = () => {
 
                 </div>
 
+                <div className='align-items-center'>
+                    <h2>I wish....</h2>
+                    <h3>I'm a frontend-based full-stack developer from Bangladesh. <br />
+                    I love wev development because I can showcase my creativity <br />
+                    in this work. I want to see myself as a skild web developer <br /> with my hard work. <br />
 
+                    </h3>
+                </div>
 
             </div>
+            <hr className=''/>
+            <Link to='/' className='btn btn-primary mt-5 mb-5 border border-2 ps-5 text-white'>Back to Home <HiArrowRight></HiArrowRight></Link>
+
         </div>
     );
 };

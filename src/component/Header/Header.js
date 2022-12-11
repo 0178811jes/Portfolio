@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HiArrowRight } from "react-icons/hi";
 
 const Header = () => {
     return (
@@ -12,7 +14,7 @@ const Header = () => {
                     Implement Private Route
                     Node.js and Express.js used for server side and client side used as
                     MongoDB Database.</p>
-                <button className="btn btn-primary">Details</button>
+                <Link to='/detail'><button className="btn btn-primary">Details</button></Link>
             </div>
             <div className="m-5 border border-5 text-success">
                 <h2>Name:Resell Waching TV</h2>
@@ -22,7 +24,7 @@ const Header = () => {
                     Implement Private Route
                     Node.js and Express.js used for server side and client side used as
                     MongoDB Database.</p>
-                <button className="btn btn-primary">Details</button>
+                    <Link to='/detail'><button className="btn btn-primary">Details</button></Link>
             </div>
             <div className="m-5 border border-5 text-success">
                 <h2>Name: Genious Car</h2>
@@ -32,9 +34,13 @@ const Header = () => {
                     Implement Private Route
                     Node.js and Express.js used for server side and client side used as
                     MongoDB Database.</p>
-                <button className="btn btn-primary">Details</button>
+                    <Link to='/detail'><button className="btn btn-primary">Details</button></Link>
             </div>
+            <hr className=''/>
+            <Link to='/' className='btn btn-primary mt-5 mb-5 border border-2 ps-5 text-white'>Back to Home <HiArrowRight></HiArrowRight></Link>
+
         </div>
+        
     );
 };
 
