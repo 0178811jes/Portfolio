@@ -5,14 +5,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import img from '../../../src/image/model.png';
 import { HiOutlineAcademicCap, HiUserCircle, HiArrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
+import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
+import Banner from '../Banner/Banner';
+
+
 
 
 
 const Home = () => {
     return (
-        <div className=" mt-5 gr">
+        <div className="">
 
-            <h1 className="text-dark mb-3">WELCOME TO My PORTFOLIO</h1>
+            {/* <h1 className="text-dark mb-3">WELCOME TO My PORTFOLIO</h1> */}
             
 
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -37,8 +42,10 @@ const Home = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+           
             
-            <div className="d-flex justify-content-center align-items-center bg-dark mt-3">
+            {/* <div className="d-flex justify-content-center align-items-center bg-dark mt-3">
                 <div className="me-5 pe-5">
                     <h1 className='text-white'>I am Jesmin Ara</h1>
                     <h3 className='text-info'>Web Developer</h3>
@@ -55,8 +62,13 @@ const Home = () => {
                     <img src={img} alt="" />
 
                 </div>
-            </div>
+            </div> */}
 
+            <Banner/>
+
+            <Skills/>
+            <Projects/>
+            
         </div>
     );
 };
