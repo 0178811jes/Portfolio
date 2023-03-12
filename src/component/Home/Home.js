@@ -28,7 +28,7 @@ const Home = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Navbar.Brand className='ps-5 text-white' href="/header">Home</Navbar.Brand>
-                            <Navbar.Brand className='ps-5 text-white' href="https://drive.google.com/file/d/1VCoxYts00XOoXlvucPyy25sfHkdw7Umm/view?usp=sharing">Download Resume</Navbar.Brand>
+                            <Navbar.Brand className='ps-5 text-white' href="https://docs.google.com/document/d/1T1VXmVKatLVB17bbVq5JjsIfJt5uLlAe9Ggfs3T13mQ/edit?usp=sharing">Download Resume</Navbar.Brand>
                             <Navbar.Brand className='ps-5 text-white' href="/blog">Blog</Navbar.Brand>
                             <Navbar.Brand href="/education"></Navbar.Brand>
                         </Nav>
